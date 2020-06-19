@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Phadzai-Shop</title>
+  </head>
+  <body>
+    <nav class="Navigation">
+      <ul>
+        <!--Liste bzw untitled list-->
+        <li><a href="index.html" Home>Home</a></li>
+        <li><a href="Shop.html" Shop>Shop</a></li>
+        <li><a href="Suche.html" Suche>Suche</a></li>
+        <li><a href="Konto.html" Konto>Konto</a></li>
+      </ul>
+    </nav>
+    <!--falls bild nicht dargestellt werden kann, kommt alt-->
+
+    <div class="Postkarte">
+      <img
+        src="https://www.mat.tuhh.de/home/cseifert/images/portrait.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">bitte mitnehmen</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>Hund No.1</p>
+      </div>
+    </div>
+
+    <div class="Postkarte">
+      <img
+        src="https://www.mat.tuhh.de/home/mlindner/images/portrait.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">
+          5 &euro;
+        </div>
+      </div>
+      <div class="Kartentext">
+        <p>Ehrenmann</p>
+      </div>
+    </div>
+    <div class="Postkarte">
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+        id="Kai"
+      />
+      <div class="overlay">
+        <div class="Preis">nicht zu verkaufen</div>
+      </div>
+      <div class="Kartentext">
+        <p>Bratan No.1</p>
+      </div>
+    </div>
+    <div class="Postkarte">
+      <img
+        id="Farid"
+        src="https://image.gala.de/21449064/2x3-620-930/c350c21f0b164eaa3ac023347dbafa50/Sy/farid-bang.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">zu teuer</div>
+      </div>
+      <div class="Kartentext">
+        <p>Vorbild</p>
+      </div>
+    </div>
+
+    <div class="Postkarte">
+      <img
+        src="https://www.landkreis-fussball.de/lafu/spieler/big/6323.jpg?1554066712"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+        id="sebastian"
+        ;
+      />
+      <div class="overlay">
+        <div class="Preis">Der Boss bestitzt kein Preisschild</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>die Hoheit</p>
+      </div>
+    </div>
+
+    <div class="Postkarte">
+      <img
+        src="https://i.scdn.co/image/879bc3b6239e6f8d1e079a3f60974d8ed06da905"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+        id="18 Karat"
+        ;
+      />
+      <div class="overlay">
+        <div class="Preis">ausverkauft</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>18 Karat</p>
+      </div>
+    </div>
+
+    <div class="Postkarte">
+      <img
+        src="https://www.markenmesser24.com/Markenmesser24/Boker/Taschenmesser/01MB602.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">10 &euro;</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>Butterfly Messer</p>
+      </div>
+    </div>
+    <div class="Postkarte">
+      <img
+        src="https://www.math.uni-hamburg.de/home/reis/timo.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">bitte mitnehmen</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>Hund No.2</p>
+      </div>
+    </div>
+    <div class="Postkarte">
+      <img
+        src="https://c.static-nike.com/a/images/f_auto,b_rgb:f5f5f5,w_880/skwgyqrbfzhu6uyeh0gg/air-max-270-herrenschuh-ntl0RF.jpg"
+        alt="Avatar"
+        class="image"
+        style="width:100%"
+      />
+      <div class="overlay">
+        <div class="Preis">150 &euro;</div>
+      </div>
+
+      <div class="Kartentext">
+        <p>Nike Air Max 720</p>
+      </div>
+    </div>
+  </body>
+</html>

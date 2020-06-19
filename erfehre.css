@@ -1,0 +1,16 @@
+#headline {
+  background-color: rgba(0, 0, 0, 0.863);
+  width: 15%;
+  padding: 18px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 47px;
+}
+
+img {
+  float: right;
+  position: relative;
+  width: 10%;
+  margin: 50px;
+}
