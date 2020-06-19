@@ -1,0 +1,179 @@
+/*.Leiste {
+  background-color: rgba(2, 2, 2, 0.678);
+  margin: 0px;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  color: antiquewhite;
+}
+
+.Leiste a {
+  color: whitesmoke;
+  text-shadow: 1px 1px grey;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Leiste a:hover {
+  background-color: rgba(255, 255, 255, 0.616);
+}
+
+.Bild {
+  width: 100%;
+}
+
+.text {
+  color: rgba(27, 27, 27, 0.884);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 2;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+ul {
+  margin-left: 10px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block; /*Home Shop .. nebeneindande*/
+  float: left;
+  line-height: 70px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none; /*keine unterstrich*/
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(27, 27, 27, 0.884);
+  padding: 0 20px; /* erste ziffer --> oben/unten , zweite ziffer links/rechts*/
+}
+
+ul li a:hover {
+  background-color: #0e0e0ee0;
+  color: white;
+}
+
+.text {
+  color: rgba(27, 27, 27, 0.884);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 50px;
+  text-align: justify; /*Blocktext*/
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  line-height: 2;
+}
+.mitte {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.Bild {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: -7.6% 0;
+}
+
+.button {
+  position: absolute;
+  top: 73%;
+  left: 80%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  display: inline-block;
+  background-color: #0e0e0ee1;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0);
+  color: #000000;
+  box-shadow: inset 0 0 0 3px #0e0e0ee1;
+
+  font-weight: bold;
+  width: auto;
+  transition: all 400ms ease;
+}
+
+.material-icons {
+  position: relative;
+  top: 6px;
+  left: 2px;
+}
+.LOGO {
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  width: 40%;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
